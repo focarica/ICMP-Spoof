@@ -27,9 +27,13 @@ This mimics how some basic **man-in-the-middle** or **host impersonation** attac
 5. The script sends a forged ICMP Echo Reply using `src=10.9.0.9`.
 
 Normal Behavior:
+
+
 <img src="https://github.com/focarica/ICMP-Spoof/blob/upload-images/img/ping-9-wspoofing.png?raw=true">
 
 and with the script running, 
+
+
 <img src="https://github.com/focarica/ICMP-Spoof/blob/upload-images/img/ping-9-spoofing.png?raw=true">
 
 ---

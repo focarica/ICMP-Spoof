@@ -34,7 +34,7 @@ Normal Behavior:
 and with the script running, 
 
 
-<img src="https://github.com/focarica/ICMP-Spoof/blob/main/img/ping-9-spoofing.png?raw=true">
+<img src="https://github.com/focarica/ICMP-Spoof/blob/main/img/ping-9-wspoofing.png?raw=true">
 
 ---
 

@@ -20,11 +20,17 @@ This mimics how some basic **man-in-the-middle** or **host impersonation** attac
 
 ## How it works
 
-1. A victim sends an ARP request: “Who has 10.9.0.99?”
-2. This script replies: “I (attacker) have 10.9.0.99 — here’s my MAC.”
+1. A victim sends an ARP request: “Who has 10.9.0.9?”
+2. This script replies: “I (attacker) have 10.9.0.9 — here’s my MAC.”
 3. The victim stores that in its ARP cache.
-4. When the victim pings `10.9.0.99`, the ICMP Echo Request comes to you.
-5. The script sends a forged ICMP Echo Reply using `src=10.9.0.99`.
+4. When the victim pings `10.9.0.9`, the ICMP Echo Request comes to you.
+5. The script sends a forged ICMP Echo Reply using `src=10.9.0.9`.
+
+Normal Behavior:
+<img src="https://github.com/focarica/ICMP-Spoof/blob/upload-images/img/ping-9-wspoofing.png?raw=true">
+
+and with the script running, 
+<img src="https://github.com/focarica/ICMP-Spoof/blob/upload-images/img/ping-9-spoofing.png?raw=true">
 
 ---
 

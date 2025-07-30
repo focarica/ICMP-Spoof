@@ -12,6 +12,8 @@ def send_spoof_pkt(pkt):
     send(spoof, verbose=False)
     return None
 
+# If the IP is unknown spoof with the src IP addrs
+# It assumes that the src from ping is a valid IP and use it as the src to send the answer
 def get_valid_ip(pkt):
     global ip_src
     
